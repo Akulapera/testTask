@@ -1,29 +1,40 @@
 import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class FirstClass  extends TestBase{
+public class LoginTest extends TestBase {
+
+   @BeforeMethod
+    public  void ensurePreconditions(){
+    if(isMenuPresent(By.xpath("//i[@class='fa fa-bars sidebar-control-button Navbar__sidebarControlButton--SReuB colors__navbarColorClassName--24u4a']"))){
+     logout();
+}
+}
 
     @Test
-    public void  openOurSiteTest(){
-       openOurSite("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
+    public void loginOurSiteTest() {
+        openOurSite("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
 
-        type(By.id("username"),"tester");
-        type(By.id("password"),"K35G3U");
+        type(By.id("username"), "tester");
+        type(By.id("password"), "K35G3U");
 
-        driver.findElement(By.id("login_button")).click();
+        click(By.id("login_button"));
 
-
+        Assert.assertTrue(isMenuPresent(By.xpath("//i[@class='fa fa-bars sidebar-control-button Navbar__sidebarControlButton--SReuB colors__navbarColorClassName--24u4a']")));
     }
 
-    private void type(By locator, String login) {
-        driver.findElement(locator).click();
-        driver.findElement(locator).clear();
-        driver.findElement(locator).sendKeys(login);
-    }
+    @Test
+    public void NegativeloginOurSiteTest() {
+        openOurSite("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
 
-    private void openOurSite(String url) {
-        driver.get(url);
-    }
+        type(By.id("username"), "tester");
+        type(By.id("password"), "123456789011121314");
 
+        click(By.id("login_button"));
+
+        Assert.assertTrue(!isMenuPresent(By.xpath("//i[@class='fa fa-bars sidebar-control-button Navbar__sidebarControlButton--SReuB colors__navbarColorClassName--24u4a']")));
+    }
 
 }
+
