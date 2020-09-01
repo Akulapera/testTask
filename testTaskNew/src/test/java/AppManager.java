@@ -6,12 +6,16 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
 import java.util.concurrent.TimeUnit;
 
-public class AppManager {
-
+public class AppManager{
+    LoginHelper loginHelper;
     WebDriver driver;
 
+    public LoginHelper getLoginHelper() {
+        return loginHelper;
+    }
+
     protected void init() {
-        String browser= System.getProperty("browser", BrowserType.EDGE);
+        String browser= System.getProperty("browser", BrowserType.CHROME);
         if(browser.equals(BrowserType.CHROME)){
             driver= new ChromeDriver();
         } else if (browser.equals(BrowserType.FIREFOX)) {
@@ -21,36 +25,13 @@ public class AppManager {
             driver = new EdgeDriver();
         }
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+
+        driver.get("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
+        //getLoginHelper().openOurSite("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
+        loginHelper= new LoginHelper(driver);
     }
 
     protected void finish() {
         driver.quit();
     }
-
-    protected void logout() {
-       click(By.xpath("//span[@class='icon-user_menu ProfileButton__userMenuIco--oNkIZ colors__profileButtonColorClassName--1_oSF']"));
-       click(By.xpath("//li[8]"));
-    }
-
-    public boolean isElementPresent (By locator){
-            return driver.findElements(locator).size()>0;
-       }
-
-    public void click(By locator){
-           driver.findElement(locator).click();
-       }
-
-    public void type(By locator, String login){
-           driver.findElement(locator).click();
-           driver.findElement(locator).clear();
-           driver.findElement(locator).sendKeys(login);
-       }
-
-    public void openOurSite(String url){
-           driver.get(url);
-       }
-
-    public  boolean isMenuPresent(By locator){
-       return  isElementPresent(locator);
-        }
 }

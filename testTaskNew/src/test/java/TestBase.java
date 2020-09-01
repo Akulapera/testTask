@@ -1,17 +1,17 @@
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class TestBase extends AppManager{
+public class TestBase {
 
-    protected   static  AppManager app=new AppManager();
+   public   static  AppManager app=new AppManager();
 
     @BeforeMethod
      public  void setUp(){
-        init();
+        app.init();
     }
 
     @AfterMethod
     public  void  tearDown(){
-       finish();
+       app.finish();
    }
 }
