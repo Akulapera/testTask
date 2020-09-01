@@ -5,35 +5,37 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase {
 
-   @BeforeMethod
+    //private final TestBase app = new TestBase();
+
+    @BeforeMethod
     public  void ensurePreconditions(){
-    if(isMenuPresent(By.xpath("//i[@class='fa fa-bars sidebar-control-button Navbar__sidebarControlButton--SReuB colors__navbarColorClassName--24u4a']"))){
-     logout();
-}
+    if(app.isMenuPresent(By.xpath("//i[@class='fa fa-bars sidebar-control-button Navbar__sidebarControlButton--SReuB colors__navbarColorClassName--24u4a']"))){
+     app.logout();
+    }
 }
 
     @Test
     public void loginOurSiteTest() {
-        openOurSite("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
+        app.openOurSite("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
 
-        type(By.id("username"), "tester");
-        type(By.id("password"), "K35G3U");
+        app.type(By.id("username"), "tester");
+        app.type(By.id("password"), "K35G3U");
 
-        click(By.id("login_button"));
+        app.click(By.id("login_button"));
 
-        Assert.assertTrue(isMenuPresent(By.xpath("//i[@class='fa fa-bars sidebar-control-button Navbar__sidebarControlButton--SReuB colors__navbarColorClassName--24u4a']")));
+        Assert.assertTrue(app.isMenuPresent(By.xpath("//i[@class='fa fa-bars sidebar-control-button Navbar__sidebarControlButton--SReuB colors__navbarColorClassName--24u4a']")));
     }
 
     @Test
     public void NegativeloginOurSiteTest() {
-        openOurSite("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
+        app.openOurSite("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
 
-        type(By.id("username"), "tester");
-        type(By.id("password"), "123456789011121314");
+        app.type(By.id("username"), "tester");
+        app.type(By.id("password"), "123456789011121314");
 
-        click(By.id("login_button"));
+        app.click(By.id("login_button"));
 
-        Assert.assertTrue(!isMenuPresent(By.xpath("//i[@class='fa fa-bars sidebar-control-button Navbar__sidebarControlButton--SReuB colors__navbarColorClassName--24u4a']")));
+        Assert.assertTrue(!app.isMenuPresent(By.xpath("//i[@class='fa fa-bars sidebar-control-button Navbar__sidebarControlButton--SReuB colors__navbarColorClassName--24u4a']")));
     }
 
 }

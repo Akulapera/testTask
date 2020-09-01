@@ -19,8 +19,29 @@ dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.0.0-alpha-3'
 }
 
- test{
-     useTestNG()
- }
+
+test {
+    useTestNG() {
+        if (project.hasProperty('suite1')) { suites './src/test/suite1.xml' }
+        if (project.hasProperty('suite2')) { suites './src/test/suite2.xml' }
+    }
+    if (project.hasProperty('browser')){
+        systemProperty 'browser',  "${browser}"
+    }
+}
+
+
+//test{
+  //  useTestNG()
+//}
+
+
+// task testTask(type: Test){
+ //    useTestNG{
+ //        suite 'src/test/java/resources/testng.xml'
+  //   }
+ //}
+
+
 
 
