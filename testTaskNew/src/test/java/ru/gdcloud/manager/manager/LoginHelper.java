@@ -1,7 +1,10 @@
+package ru.gdcloud.manager.manager;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import ru.gdcloud.manager.manager.BaseHelper;
 
-public class LoginHelper extends BaseHelper{
+public class LoginHelper extends BaseHelper {
 
    // WebDriver driver;
 
@@ -9,7 +12,7 @@ public class LoginHelper extends BaseHelper{
         super(driver);
     }
 
-    protected void logout() {
+    public void logout() {
        click(By.xpath("//span[@class='icon-user_menu ProfileButton__userMenuIco--oNkIZ colors__profileButtonColorClassName--1_oSF']"));
        click(By.xpath("//li[8]"));
     }

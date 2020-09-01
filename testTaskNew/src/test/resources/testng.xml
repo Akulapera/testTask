@@ -3,7 +3,7 @@
 <suite name="suite1" verbose="1" >
     <test name="Nopackage" >
         <classes>
-            <class name="LoginTest" />
+            <class name="ru.gdcloud.manager.tests.LoginTest" />
         </classes>
     </test>
 

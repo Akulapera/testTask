@@ -1,9 +1,11 @@
-import org.openqa.selenium.By;
+package ru.gdcloud.manager.manager;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.BrowserType;
+
 import java.util.concurrent.TimeUnit;
 
 public class AppManager{
@@ -14,7 +16,7 @@ public class AppManager{
         return loginHelper;
     }
 
-    protected void init() {
+    public  void init() {
         String browser= System.getProperty("browser", BrowserType.CHROME);
         if(browser.equals(BrowserType.CHROME)){
             driver= new ChromeDriver();
@@ -31,7 +33,7 @@ public class AppManager{
         loginHelper= new LoginHelper(driver);
     }
 
-    protected void finish() {
+    public void finish() {
         driver.quit();
     }
 }
