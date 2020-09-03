@@ -3,34 +3,49 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import ru.gdcloud.manager.model.LoginPasswordData;
 
-
 public class LoginTest extends TestBase {
 
-  //@BeforeMethod
+    //@BeforeMethod
     //public  void ensurePreconditions(){
-     // if(app.getLoginHelper().isMenuPresent());{
+    // if(app.getLoginHelper().isMenuPresent());{
 
     //if(app.getLoginHelper().isMenuPresent(By.xpath("//*[@class='flex-auto page-name-wrapper']"))){
-     //.app.getLoginHelper().logout();
-   // }
+    //.app.getLoginHelper().logout();
+    // }
 //}
 
+    @Test(dataProvider = "invalidLoginPassword", dataProviderClass = DataProviders.class)
+    public void NegativeloginTestWithDP(String login, String password) throws InterruptedException {
+        app.getLoginHelper().fillLoginForm(new LoginPasswordData()
+                .setLogin(login)
+                .setPassword(password));
+        app.getLoginHelper().submit();
+        Assert.assertTrue(!app.getLoginHelper().isMenuPresent());
+    }
+
+    @Test(dataProvider = "invalidLoginPasswordCSV", dataProviderClass = DataProviders.class)
+    public void NegativeloginTestWithCSV(LoginPasswordData loginPassword) {
+        app.getLoginHelper().fillLoginForm(loginPassword);
+        app.getLoginHelper().submit();
+        Assert.assertTrue(!app.getLoginHelper().isMenuPresent());
+    }
 
     @Test
     public void loginTest() throws InterruptedException {
-     app.getLoginHelper().fillLoginForm(new LoginPasswordData()
-             .setLogin("tester")
-             .setPassword("K35G3U"));
-     app.getLoginHelper().submit();
+        app.getLoginHelper().fillLoginForm(new LoginPasswordData()
+                .setLogin("tester")
+                .setPassword("K35G3U"));
+        app.getLoginHelper().submit();
         Assert.assertTrue(app.getLoginHelper().isMenuPresent());
     }
 
     @Test
-    public void NegativeLoginTest() { ;
-      app.getLoginHelper().fillLoginForm(new LoginPasswordData()
-              .setLogin("tester")
-              .setPassword("1234567890"));
-      app.getLoginHelper().submit();
+    public void NegativeLoginTest() {
+        ;
+        app.getLoginHelper().fillLoginForm(new LoginPasswordData()
+                .setLogin("tester")
+                .setPassword("1234567890"));
+        app.getLoginHelper().submit();
         Assert.assertTrue(!app.getLoginHelper().isMenuPresent());
     }
 }

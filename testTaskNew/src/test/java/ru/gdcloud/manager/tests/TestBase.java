@@ -7,15 +7,15 @@ import ru.gdcloud.manager.manager.AppManager;
 
 public class TestBase {
 
-   public   static AppManager app=new AppManager();
+    public static AppManager app = new AppManager();
 
     @BeforeMethod
-     public  void setUp(){
+    public void setUp() {
         app.init();
     }
 
     @AfterMethod
-    public  void  tearDown(){
-       app.finish();
-   }
+    public void tearDown() {
+        app.finish();
+    }
 }
