@@ -1,0 +1,4 @@
+2020-09-03 17:35:04,845 INFO [main] r.g.m.t.TestBase [TestBase.java:19] Start test NegativeLoginTestWithDP with parameters [TESTERRRR, 123456789014567890]
+2020-09-03 17:35:20,568 INFO [main] r.g.m.t.TestBase [TestBase.java:28] Stop test public void ru.gdcloud.manager.tests.LoginTest.NegativeLoginTestWithDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException
+2020-09-03 17:35:31,848 INFO [main] r.g.m.t.TestBase [TestBase.java:19] Start test NegativeLoginTestWithDP with parameters [89, 123]
+2020-09-03 17:35:47,421 INFO [main] r.g.m.t.TestBase [TestBase.java:28] Stop test public void ru.gdcloud.manager.tests.LoginTest.NegativeLoginTestWithDP(java.lang.String,java.lang.String) throws java.lang.InterruptedException

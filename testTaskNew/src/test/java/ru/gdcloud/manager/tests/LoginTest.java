@@ -15,7 +15,7 @@ public class LoginTest extends TestBase {
 //}
 
     @Test(dataProvider = "invalidLoginPassword", dataProviderClass = DataProviders.class)
-    public void NegativeloginTestWithDP(String login, String password) throws InterruptedException {
+    public void NegativeLoginTestWithDP(String login, String password) throws InterruptedException {
         app.getLoginHelper().fillLoginForm(new LoginPasswordData()
                 .setLogin(login)
                 .setPassword(password));
@@ -24,7 +24,7 @@ public class LoginTest extends TestBase {
     }
 
     @Test(dataProvider = "invalidLoginPasswordCSV", dataProviderClass = DataProviders.class)
-    public void NegativeloginTestWithCSV(LoginPasswordData loginPassword) {
+    public void NegativeLoginTestWithCSV(LoginPasswordData loginPassword) {
         app.getLoginHelper().fillLoginForm(loginPassword);
         app.getLoginHelper().submit();
         Assert.assertTrue(!app.getLoginHelper().isMenuPresent());
@@ -37,16 +37,6 @@ public class LoginTest extends TestBase {
                 .setPassword("K35G3U"));
         app.getLoginHelper().submit();
         Assert.assertTrue(app.getLoginHelper().isMenuPresent());
-    }
-
-    @Test
-    public void NegativeLoginTest() {
-        ;
-        app.getLoginHelper().fillLoginForm(new LoginPasswordData()
-                .setLogin("tester")
-                .setPassword("1234567890"));
-        app.getLoginHelper().submit();
-        Assert.assertTrue(!app.getLoginHelper().isMenuPresent());
     }
 }
 

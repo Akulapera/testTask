@@ -14,6 +14,13 @@ public class LoginPasswordData {
         return this;
     }
 
+    @Override
+    public String toString() {
+        return "LoginPasswordDataTOSTRING{" +
+                "login is='" + login + '\'' +
+                ", password is='" + password + '\'' +
+                '}';
+    }
     public String getLogin() {
         return login;
     }

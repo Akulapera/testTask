@@ -20,7 +20,7 @@ public class DataProviders {
     public Iterator<Object[]> invalidLoginPasswordCSV() throws IOException {
         List<Object[]> list = new ArrayList<>();
         BufferedReader reader = new BufferedReader((new FileReader
-                ("src/test/resources/lpN.csv")));
+                ("src/test/resources/LogPas2.csv")));
         String line = reader.readLine();
         while (line != null) {
             String[] split = line.split(",");

@@ -17,6 +17,8 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
     implementation 'org.testng:testng:7.3.0'
     compile group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.0.0-alpha-3'
+    testCompile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+
 }
 
 

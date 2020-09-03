@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1789fc2e-eb28-4572-bec6-979a4d043430" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/DataProviders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/LogPas2.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/testTaskNew_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/testTaskNew_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/gdcloud/manager/manager/BaseHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/gdcloud/manager/manager/BaseHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/gdcloud/manager/manager/LoginHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/gdcloud/manager/manager/LoginHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/gdcloud/manager/tests/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/gdcloud/manager/tests/LoginTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/ru/gdcloud/manager/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ru/gdcloud/manager/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/AppManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/AppManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/BaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/BaseHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/LoginHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/LoginHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/model/LoginPasswordData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/model/LoginPasswordData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/DataProviders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/DataProviders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/LoginPasswordNegarive.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/lpN.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -46,30 +46,39 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="csv" value="1" />
-          <entry key="gradle" value="1" />
-          <entry key="java" value="18" />
+          <entry key="gradle" value="2" />
+          <entry key="java" value="21" />
+          <entry key="log-20200903T173032" value="1" />
+          <entry key="log-20200903T173458" value="1" />
+          <entry key="log-20200903T173752" value="1" />
+          <entry key="log-bySecond_IS_UNDEFINED" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="18" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Groovy" value="2" />
+          <entry key="JAVA" value="21" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="csv" value="6" />
           <entry key="dummy" value="21" />
-          <entry key="gradle" value="1" />
-          <entry key="java" value="920" />
+          <entry key="gradle" value="2" />
+          <entry key="java" value="1020" />
+          <entry key="log-bySecond_IS_UNDEFINED" value="1" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="920" />
-          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="Groovy" value="2" />
+          <entry key="JAVA" value="1020" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -79,11 +88,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            <state relative-caret-position="364">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,72 +100,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/DataProviders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/BaseHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="35" selection-start-column="35" selection-end-column="35" />
+            <state relative-caret-position="396">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/model/LoginPasswordData.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/AppManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/LoginHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-              <folding>
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -351,9 +311,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6394565192269" />
+        <entry key="$PROJECT_DIR$" value="6394740408492" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="160637792" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4238807260" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2585518924" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="1611440206" />
       </map>
@@ -540,26 +500,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/test/java/BaseHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/AppManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/model/LoginPasswordData.java" />
         <option value="$PROJECT_DIR$/src/test/resources/lpN.csv" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/DataProvider.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/DataProviders.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/BaseHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/AppManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/LoginHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/test/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/src/test/logs!/log-bySecond_IS_UNDEFINED" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/model/LoginPasswordData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/DataProviders.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="36" />
     <option name="y" value="9" />
     <option name="width" value="1752" />
@@ -638,6 +600,13 @@
               <item name="testTaskNew" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="logs!" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testTaskNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testTaskNew" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -648,16 +617,16 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599141290365" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599146357193" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\porok\Documents\GitHub\testTask\testTaskNew\src\test\resources" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\porok\Documents\GitHub\testTask\testTaskNew\src\test\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -672,7 +641,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.loginTest">
+  <component name="RunManager" selected="TestNG.LoginTest.NegativeLoginTestWithCSV">
     <configuration name="LoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testTaskNew_test" />
       <option name="SUITE_NAME" value="" />
@@ -719,7 +688,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.NegativeloginTestWithCSV" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.NegativeLoginTestWithCSV" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testTaskNew_test" />
       <extension name="coverage">
         <pattern>
@@ -730,7 +699,7 @@
       <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="ru.gdcloud.manager.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.gdcloud.manager.tests.LoginTest" />
-      <option name="METHOD_NAME" value="NegativeloginTestWithCSV" />
+      <option name="METHOD_NAME" value="NegativeLoginTestWithCSV" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -746,12 +715,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTest.loginOurSiteTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.NegativeLoginTestWithDP" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testTaskNew_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gdcloud.manager.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="ru.gdcloud.manager.tests" />
       <option name="MAIN_CLASS_NAME" value="ru.gdcloud.manager.tests.LoginTest" />
-      <option name="METHOD_NAME" value="loginOurSiteTest" />
+      <option name="METHOD_NAME" value="NegativeLoginTestWithDP" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
@@ -796,18 +771,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.LoginTest" />
-      <item itemvalue="TestNG.LoginTest.loginOurSiteTest" />
       <item itemvalue="TestNG.LoginTest.NegativeLoginTest" />
-      <item itemvalue="TestNG.LoginTest.NegativeloginTestWithCSV" />
+      <item itemvalue="TestNG.LoginTest.NegativeLoginTestWithCSV" />
       <item itemvalue="TestNG.LoginTest.loginTest" />
+      <item itemvalue="TestNG.LoginTest.NegativeLoginTestWithDP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.NegativeLoginTestWithCSV" />
+        <item itemvalue="TestNG.LoginTest.NegativeLoginTestWithDP" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
-        <item itemvalue="TestNG.LoginTest.NegativeloginTestWithCSV" />
         <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.LoginTest.NegativeLoginTest" />
-        <item itemvalue="TestNG.LoginTest.loginOurSiteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -825,24 +800,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_NegativeloginTestWithDP - 2020.09.03 at 15h 55m 55s.xml">
-      <configuration name="LoginTest.NegativeloginTestWithDP" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_NegativeloginTestWithDP - 2020.09.03 at 15h 58m 49s.xml">
-      <configuration name="LoginTest.NegativeloginTestWithDP" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_NegativeloginTestWithCSV - 2020.09.03 at 16h 00m 10s.xml">
-      <configuration name="LoginTest.NegativeloginTestWithCSV" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_NegativeloginTestWithCSV - 2020.09.03 at 16h 02m 39s.xml">
-      <configuration name="LoginTest.NegativeloginTestWithCSV" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_NegativeloginTestWithCSV - 2020.09.03 at 16h 04m 23s.xml">
-      <configuration name="LoginTest.NegativeloginTestWithCSV" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_NegativeloginTestWithCSV - 2020.09.03 at 16h 06m 22s.xml">
-      <configuration name="LoginTest.NegativeloginTestWithCSV" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTest_NegativeloginTestWithCSV - 2020.09.03 at 16h 09m 37s.xml">
       <configuration name="LoginTest.NegativeloginTestWithCSV" configurationId="TestNG" />
     </history-entry>
@@ -855,12 +812,30 @@
     <history-entry file="LoginTest_loginTest - 2020.09.03 at 16h 38m 49s.xml">
       <configuration name="LoginTest.loginTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginTest_loginTest - 2020.09.03 at 17h 15m 52s.xml">
+      <configuration name="LoginTest.loginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_loginTest - 2020.09.03 at 17h 26m 26s.xml">
+      <configuration name="LoginTest.loginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_loginTest - 2020.09.03 at 17h 30m 44s.xml">
+      <configuration name="LoginTest.loginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_NegativeLoginTestWithDP - 2020.09.03 at 17h 34m 30s.xml">
+      <configuration name="LoginTest.NegativeLoginTestWithDP" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_NegativeLoginTestWithDP - 2020.09.03 at 17h 35m 48s.xml">
+      <configuration name="LoginTest.NegativeLoginTestWithDP" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_NegativeLoginTestWithCSV - 2020.09.03 at 17h 40m 02s.xml">
+      <configuration name="LoginTest.NegativeLoginTestWithCSV" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972973" visible="true" weight="0.22267206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4972973" visible="true" weight="0.28421053" />
       <window_info id="Structure" order="1" sideWeight="0.5027027" side_tool="true" weight="0.25910932" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -870,7 +845,7 @@
       <window_info anchor="bottom" id="ExcelReader" weight="0.28419182" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1740675" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.09413854" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -895,13 +870,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -924,21 +892,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/AppManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#321#322#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/DataProviders.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/LoginHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="50" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+        <state relative-caret-position="-260">
+          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -956,36 +925,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/model/LoginPasswordData.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="330">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/AppManager.java">
+    <entry file="file://$PROJECT_DIR$/src/test/logs!/log-20200903T173032">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/logs!/log-bySecond_IS_UNDEFINED">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/manager/LoginHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/logs!/log-20200903T173752">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="220">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/logs!/log-20200903T173458">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        <state relative-caret-position="364">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/model/LoginPasswordData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ru/gdcloud/manager/tests/DataProviders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

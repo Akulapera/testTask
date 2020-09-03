@@ -1,0 +1,8 @@
+2020-09-03 18:19:25,389 INFO [main] r.g.m.t.TestBase [TestBase.java:19] Start test NegativeLoginTestWithCSV with parameters [LoginPasswordDataTOSTRING{login is='a', password is='d'}]
+2020-09-03 18:19:41,147 INFO [main] r.g.m.t.TestBase [TestBase.java:28] Stop test 
+2020-09-03 18:19:47,082 INFO [main] r.g.m.t.TestBase [TestBase.java:19] Start test NegativeLoginTestWithCSV with parameters [LoginPasswordDataTOSTRING{login is='123456789012345678901', password is='123456789012345678901'}]
+2020-09-03 18:20:02,742 INFO [main] r.g.m.t.TestBase [TestBase.java:28] Stop test 
+2020-09-03 18:20:09,085 INFO [main] r.g.m.t.TestBase [TestBase.java:19] Start test NegativeLoginTestWithCSV with parameters [LoginPasswordDataTOSTRING{login is='גלהדגלהגיהבג', password is='K35G3U'}]
+2020-09-03 18:20:24,831 INFO [main] r.g.m.t.TestBase [TestBase.java:28] Stop test 
+2020-09-03 18:20:30,543 INFO [main] r.g.m.t.TestBase [TestBase.java:19] Start test NegativeLoginTestWithCSV with parameters [LoginPasswordDataTOSTRING{login is='!!', password is='K35G3U'}]
+2020-09-03 18:20:46,298 INFO [main] r.g.m.t.TestBase [TestBase.java:28] Stop test 
