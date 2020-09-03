@@ -29,7 +29,7 @@ public class AppManager{
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         driver.get("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
-        //getLoginHelper().openOurSite("https://gdcloud.ru/release-17/auth/login#/?_k=wosph0");
+
         loginHelper= new LoginHelper(driver);
     }
 

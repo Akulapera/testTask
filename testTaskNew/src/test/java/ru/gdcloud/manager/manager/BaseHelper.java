@@ -18,9 +18,12 @@ public class BaseHelper {
         driver.findElement(locator).click();
     }
 
-    public void type(By locator, String login){
-        driver.findElement(locator).click();
-        driver.findElement(locator).clear();
-        driver.findElement(locator).sendKeys(login);
+    public void type(By locator, String text){
+        if (text != null){
+            driver.findElement(locator).click();
+            driver.findElement(locator).clear();
+            driver.findElement(locator).sendKeys(text);
+        }
+
     }
 }
